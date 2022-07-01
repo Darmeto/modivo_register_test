@@ -19,3 +19,4 @@ class RegisterLocators:
     TERMS_CHECKBOX = (By.CSS_SELECTOR, 'label[for="terms"] span')
     TERMS_ERROR = (By.CSS_SELECTOR, '.checkbox div .error-msg')
     SUBMIT_BUTTON = (By.CSS_SELECTOR, 'button[data-test-id=create-account-button]')
+    register_message_pass = (By.LINK_TEXT, 'Udana rejestracja.')
